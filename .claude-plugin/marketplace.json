@@ -1,0 +1,11 @@
+{
+  "name": "ndpr-compliance-skill",
+  "owner": { "name": "anaivi1960", "url": "https://github.com/anaivi1960" },
+  "plugins": [
+    {
+      "name": "ndpr-compliance",
+      "source": "./",
+      "description": "Audit codebases for Nigerian data protection compliance (NDPA 2023, NDPC GAID 2025, NDPR) with exact section citations and concrete fixes."
+    }
+  ]
+}

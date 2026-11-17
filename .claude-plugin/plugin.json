@@ -1,0 +1,10 @@
+{
+  "name": "ndpr-compliance",
+  "version": "1.0.0",
+  "description": "Audit codebases for Nigerian data protection compliance (NDPA 2023, NDPC GAID 2025, NDPR) with exact section citations and concrete fixes.",
+  "author": { "name": "anaivi1960", "url": "https://github.com/anaivi1960" },
+  "homepage": "https://github.com/anaivi1960/ndpr-compliance-skill",
+  "repository": "https://github.com/anaivi1960/ndpr-compliance-skill",
+  "license": "MIT",
+  "keywords": ["ndpr", "ndpa", "gaid", "nigeria", "data-protection", "privacy", "compliance", "audit"]
+}

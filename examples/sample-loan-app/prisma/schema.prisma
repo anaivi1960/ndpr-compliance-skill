@@ -1,0 +1,18 @@
+model User {
+  id            String   @id
+  email         String   @unique
+  phoneNumber   String
+  bvn           String
+  nin           String?
+  dateOfBirth   DateTime
+  stateOfOrigin String
+  selfieUrl     String
+  marketingOptIn Boolean @default(true)
+  deletedAt     DateTime?
+}
+model LoanApplication {
+  id        String @id
+  userId    String
+  creditScore Int
+  autoRejected Boolean
+}
